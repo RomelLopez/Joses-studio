@@ -14,6 +14,7 @@ nav.navbar.scrolled {
 
 nav.navbar a.navbar-brand {
     width: 9%;
+
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
@@ -23,7 +24,9 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
     padding: 0 25px;
     font-size: 18px;
     opacity: 0.75;
+
 }
+
 
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
@@ -76,6 +79,10 @@ span.navbar-text {
 
 .social-icon a:hover img {
     filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+}
+
+.navbar-text {
+    border-bottom: solid black 2px;
 }
 
 .navbar-text button {
