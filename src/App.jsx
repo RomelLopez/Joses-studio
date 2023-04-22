@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Navbar from './components/navbar/Navbar'
+import Skills from './components/Skills'
 import Banner from './components/Banner';
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Banner />
+      <Skills />
     </div>
   )
 }
