@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import studiobanner from "../assets/studiobanner.png"
+import 'animate.css';
+import TrackVisibility from "react-on-screen";
 import "./banner.css"
 
 
@@ -50,13 +52,23 @@ const Banner = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                        <span className="tagline">Jose's Dance Studio</span>
-                        <h1>{`Hi, my name is Jose and here we teach you `}<span className="wrap">{text}</span></h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus repudiandae enim ducimus laborum sit quasi iusto aperiam debitis facilis, ratione culpa? Libero ad tenetur ut neque iure mollitia expedita! Ipsam.</p>
-                        <button onClick={() => console.log('connect')}>Lets connect <ArrowRightCircle size={25} /></button>
+                        <TrackVisibility>
+                            {({ isVisible }) =>
+                                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                                    <span className="tagline">Jose's Dance Studio</span>
+                                    <h1>{`Hi, my name is Jose and here we teach you `}<span className="wrap">{text}</span></h1>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus repudiandae enim ducimus laborum sit quasi iusto aperiam debitis facilis, ratione culpa? Libero ad tenetur ut neque iure mollitia expedita! Ipsam.</p>
+                                    <button onClick={() => console.log('connect')}>Lets connect <ArrowRightCircle size={25} /></button>
+                                </div>}
+                        </TrackVisibility>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <img src={studiobanner} alt="Header Image" />
+                        <TrackVisibility>
+                            {({ isVisible }) =>
+                                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                                    <img src={studiobanner} alt="Header Image" />
+                                </div>}
+                        </TrackVisibility>
                     </Col>
                 </Row>
             </Container>

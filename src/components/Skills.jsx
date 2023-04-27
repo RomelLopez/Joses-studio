@@ -41,28 +41,69 @@ const Skills = () => {
                             <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus similique praesentium eius sit obcaecati quibusdam id eum enim sed dolorum cum commodi ratione tempora est numquam illum facilis, laboriosam asperiores.</p>
                             <Carousel responsive={responsive} infinite={true} className="skill-slider">
                                 <div className="item">
+                                    <h5>LOCATED AT THE PARK @8:15AM</h5>
+                                    <h5>Monday Kickboxing & Bootcamp</h5>
                                     <FitnessCenterIcon />
-                                    <h5>Workout</h5>
                                 </div>
                                 <div className="item">
-                                    <EmojiPeopleIcon />
-                                    <h5>Intern Salsa</h5>
-                                </div>
-                                <div className="item">
+                                    <h5>LOCATED AT THE STUDIO @8:15PM</h5>
+                                    <h5>Monday Boxing/Weight</h5>
                                     <FitnessCenterIcon />
-                                    <h5>Workout</h5>
                                 </div>
                                 <div className="item">
-                                    <EmojiPeopleIcon />
-                                    <h5>Beginner Salsa </h5>
-                                </div>
-                                <div className="item">
-                                    <EmojiPeopleIcon />
-                                    <h5>Bachata</h5>
-                                </div>
-                                <div className="item">
+                                    <h5>LOCATED AT THE STUDIO @8:30AM</h5>
+                                    <h5>Tuesday Step Class</h5>
                                     <FitnessCenterIcon />
-                                    <h5>Workout</h5>
+                                </div>
+                                <div className="item">
+                                    <h5>LOCATED AT THE STUDIO @8:15PM</h5>
+                                    <h5>Tuesday Intermediate Salsa</h5>
+                                    <EmojiPeopleIcon />
+                                </div>
+                                <div className="item">
+                                    <h5>LOCATED AT THE PARK @8:15AM</h5>
+                                    <h5>Wednesday Cardio Dance Class</h5>
+                                    <FitnessCenterIcon />
+                                </div>
+                                <div className="item">
+                                    <h5>LOCATED AT THE STUDIO @8:15PM</h5>
+                                    <h5>Wednesday Cardio Dance/Bootcamp Class</h5>
+                                    <FitnessCenterIcon />
+                                </div>
+                                <div className="item">
+                                    <h5>LOCATED AT THE PARK @8:15AM</h5>
+                                    <h5>Thursday Cardio Boxing/Weights Class</h5>
+                                    <FitnessCenterIcon />
+                                </div>
+                                <div className="item">
+                                    <h5>LOCATED AT THE PARK @9:30AM</h5>
+                                    <h5>Thursday Cardio Class</h5>
+                                    <FitnessCenterIcon />
+                                </div>
+                                <div className="item">
+                                    <h5>LOCATED AT THE STUDIO @8:15PM</h5>
+                                    <h5>Thursday Beginnner Salsa</h5>
+                                    <EmojiPeopleIcon />
+                                </div>
+                                <div className="item">
+                                    <h5>LOCATED AT THE PARK @8:15AM</h5>
+                                    <h5>Friday Cardio Dance</h5>
+                                    <FitnessCenterIcon />
+                                </div>
+                                <div className="item">
+                                    <h5>LOCATED AT THE STUDIO @7:15PM</h5>
+                                    <h5>Friday Cardio Dance</h5>
+                                    <FitnessCenterIcon />
+                                </div>
+                                <div className="item">
+                                    <h5>LOCATED AT THE STUDIO @8:15PM</h5>
+                                    <h5>Friday Bachata</h5>
+                                    <EmojiPeopleIcon />
+                                </div>
+                                <div className="item">
+                                    <h5>LOCATED AT THE STUDIO @8:00AM</h5>
+                                    <h5>SATURDAY Cardio Dance</h5>
+                                    <FitnessCenterIcon />
                                 </div>
                             </Carousel>
                         </div>
