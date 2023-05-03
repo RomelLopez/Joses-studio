@@ -7,6 +7,7 @@ import Skills from './components/Skills'
 import Projects from './components/Projects'
 import Banner from './components/Banner';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Contact from './components/Contact'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -16,6 +17,7 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   )
 }
