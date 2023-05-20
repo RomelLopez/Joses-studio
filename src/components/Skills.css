@@ -4,7 +4,7 @@
 }
 
 .skill-bx {
-    background: #5f4545;
+    background: #0d1225;
     border-radius: 64px;
     text-align: center;
     padding: 60px 50px;
@@ -33,4 +33,11 @@
 .skill-slider .item img {
     width: 50%;
     margin: 0 auto 15px auto;
+}
+
+.item {
+    background-color: BLACK;
+    padding: 20px;
+    margin: 3px;
+    border-radius: 40px;
 }

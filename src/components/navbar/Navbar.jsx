@@ -46,8 +46,8 @@ function NavBar() {
                     </Nav>
                     <span className='navbar-text'>
                         <div className='social-icon'>
-                            <a href="#"> <FacebookIcon href="#" /> </a>
-                            <a href="#"><WhatsAppIcon /> </a>
+                            <a href="#"> <FacebookIcon className='brandicon' /> </a>
+                            <a href="#"><WhatsAppIcon className='brandicon'/> </a>
                         </div>
                         <button className='vvd' onClick={() => console.log('connect')}>
                             <span>Let's Connect</span>
